@@ -1,8 +1,7 @@
 <?php 
 	echo phpinfo();
 ?>
-<?php require_once("includes/connection.php"); ?>
-<?php include("includes/header.php"); ?>
+
 	<div class="container mlogin">
 		<div id="login">
 			<h1>Вход</h1>
