@@ -32,7 +32,7 @@
 			$sql="INSERT INTO usertbl
 		 	 (full_name, email, username,password)
 			VALUES('$full_name','$email', '$username', '$password')";
-		 	 $result=mysql_query($sql);
+		 	 $result=mysqli_query($sql);
 		if($result){
 			$message = "Account Successfully Created";
 		} else {
