@@ -3,7 +3,7 @@
 session_start();
 
 if(!isset($_SESSION["session_username"])):
-header("location:login.php");
+  header("location:register.php");
 else:
 ?>
 <?php include("includes/header.php"); ?>
