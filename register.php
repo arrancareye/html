@@ -25,8 +25,8 @@
 		 $email=htmlspecialchars($_POST['email']);
 		 $username=htmlspecialchars($_POST['username']);
 		 $password=htmlspecialchars($_POST['password']);
-		 $query=mysql_query("SELECT * FROM usertbl WHERE username='".$username."'");
-		 $numrows=mysql_num_rows($query);
+		 $query=mysqli_query("SELECT * FROM usertbl WHERE username='".$username."'");
+		 $numrows=mysqli_num_rows($query);
 		if($numrows==0)
 		   {
 			$sql="INSERT INTO usertbl
